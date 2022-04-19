@@ -82,7 +82,7 @@ export default function Calendar({
           value={month}
           onChange={handleMonthSelect}
         >
-          {getMonthDropdownOptions().map(({ label, value }) => (
+          {getMonthDropdownOptions().map(({ label, value }: any) => (
             <option value={value} key={value}>
               {label}
             </option>
@@ -93,7 +93,7 @@ export default function Calendar({
           value={year}
           onChange={handleYearSelect}
         >
-          {getYearDropdownOptions(year).map(({ label, value }) => (
+          {getYearDropdownOptions(year).map(({ label, value }: any) => (
             <option value={value} key={value}>
               {label}
             </option>
