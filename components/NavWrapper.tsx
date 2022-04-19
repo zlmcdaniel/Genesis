@@ -5,6 +5,7 @@ const NavWrapper: FC = ({ children }) => {
   const routes = [
     { name: 'Home', path: '/' },
     { name: 'Account Manager', path: '/accounts' },
+    { name: 'Calendar', path: '/calendar' },
     { name: 'Integrations', path: '/integrations' },
     { name: 'Knowledge Base', path: '/wiki' }
   ];
@@ -35,4 +36,4 @@ const NavWrapper: FC = ({ children }) => {
   )
 }
 
-export default NavWrapper ;
+export default NavWrapper;
