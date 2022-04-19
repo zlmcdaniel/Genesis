@@ -1,8 +1,9 @@
 import type { NextPage } from 'next'
+import styles from '../styles/index.module.css'
 
 const Home: NextPage = () => {
   return (
-    <div>I dont know what the index page is supposed to be Callum</div>
+    <h1 className={styles.header}>{'{'}Organization Name{'}'} Dashboard</h1>
   )
 }
 
